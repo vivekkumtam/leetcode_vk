@@ -2,7 +2,6 @@ class Solution:
     def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
         ans = 0
         summ = 0
-    # (nums2[i], nums1[i]) sorted by nums2[i] in descending order.
         A = sorted([(num2, num1)
                 for num1, num2 in zip(nums1, nums2)], reverse=True)
         minHeap = []
