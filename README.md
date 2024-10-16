@@ -1,2 +1,3 @@
 # leetcode_vk
-my leetcode programms
+
+One day at a time, let's gooooooooo!
